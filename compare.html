@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js-anim');</script>
 <title>Compare Free &amp; Pro — Nightly</title>
 <meta name="description" content="Compare Nightly Free and Nightly Pro feature by feature — strength control, presets, delivery, updates, and support.">
 <link rel="icon" href="icon.png">
@@ -28,12 +29,12 @@
 </header>
 
 <div class="page-head">
-  <h1>Free vs Pro</h1>
-  <p>Both editions turn Night Light on and off with one click. Pro adds full control over how warm your screen gets — and future updates.</p>
+  <h1 data-load>Free vs Pro</h1>
+  <p data-load>Both editions turn Night Light on and off with one click. Pro adds full control over how warm your screen gets — and future updates.</p>
 </div>
 
 <section>
-  <div class="wrap table-wrap">
+  <div class="wrap table-wrap" data-reveal>
     <table class="compare">
       <thead>
         <tr>
@@ -82,5 +83,6 @@
   </div>
 </footer>
 
+<script src="script.js" defer></script>
 </body>
 </html>

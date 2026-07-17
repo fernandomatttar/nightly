@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js-anim');</script>
 <title>Changelog — Nightly</title>
 <meta name="description" content="Release history for Nightly, one-click Night Light for Windows 11.">
 <link rel="icon" href="icon.png">
@@ -27,12 +28,12 @@
 </header>
 
 <div class="page-head">
-  <h1>Changelog</h1>
-  <p>What's new in Nightly.</p>
+  <h1 data-load>Changelog</h1>
+  <p data-load>What's new in Nightly.</p>
 </div>
 
 <section>
-  <div class="wrap prose">
+  <div class="wrap prose" data-reveal>
     <h2>v1.1.0 — 2026</h2>
     <ul>
       <li>Nightly Pro: added a tray icon in the hidden icons area — left-click to toggle Night Light, right-click for presets, a custom value, and Configure Nightly.</li>
@@ -66,5 +67,6 @@
   </div>
 </footer>
 
+<script src="script.js" defer></script>
 </body>
 </html>

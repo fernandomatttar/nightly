@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>document.documentElement.classList.add('js-anim');</script>
 <title>Privacy Policy — Nightly</title>
 <meta name="description" content="Nightly's privacy policy. The app collects nothing; the website uses cookieless Cloudflare Web Analytics.">
 <link rel="icon" href="icon.png">
@@ -27,12 +28,12 @@
 </header>
 
 <div class="page-head">
-  <h1>Privacy policy</h1>
-  <p>Last updated: 2026</p>
+  <h1 data-load>Privacy policy</h1>
+  <p data-load>Last updated: 2026</p>
 </div>
 
 <section>
-  <div class="wrap prose">
+  <div class="wrap prose" data-reveal>
     <h2>The Nightly app</h2>
     <p>The Nightly application collects no personal data. It does not create an account, does not connect to the internet, and does not include any analytics or tracking. It only switches the Night Light setting that is already part of Windows. Your chosen strength is stored in a small text file on your own computer and never leaves it.</p>
 
@@ -61,5 +62,6 @@
   </div>
 </footer>
 
+<script src="script.js" defer></script>
 </body>
 </html>
